@@ -12,7 +12,7 @@ DOTNET_VERSION = "10"
 TOOLS_DIR = Path(__file__).parent
 
 PROJECT_DIR = TOOLS_DIR.parent
-assert Path(PROJECT_DIR, "com.spacestation14.Launcher.yaml").is_file()
+assert Path(PROJECT_DIR, "com.playss14.launcher.yaml").is_file()
 
 SOURCES_DIR = Path(PROJECT_DIR, "sources")
 SOURCES_DIR.mkdir(parents=True, exist_ok=True)
